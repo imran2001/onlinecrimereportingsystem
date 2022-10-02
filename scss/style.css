@@ -1,0 +1,1057 @@
+@import "../awesome_font/font-awesome.min.css";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+}
+
+header {
+  width: 100%;
+  height: auto;
+}
+
+.caption_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.caption_container h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 5.2rem;
+  background: rgba(255, 0, 0, 0.911);
+  width: 100%;
+  padding: 0.7rem;
+  -webkit-animation-name: colorchange;
+          animation-name: colorchange;
+  -webkit-animation-duration: 20s;
+          animation-duration: 20s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+.header_img img {
+  width: 100%;
+  filter: saturate(150%);
+  outline: none;
+}
+
+@-webkit-keyframes colorchange {
+  0% {
+    color: white;
+  }
+  25% {
+    color: Yellow;
+  }
+  50% {
+    color: white;
+  }
+  75% {
+    color: yellow;
+  }
+  100% {
+    color: white;
+  }
+}
+
+@keyframes colorchange {
+  0% {
+    color: white;
+  }
+  25% {
+    color: Yellow;
+  }
+  50% {
+    color: white;
+  }
+  75% {
+    color: yellow;
+  }
+  100% {
+    color: white;
+  }
+}
+nav {
+  background: #002e5b;
+  color: white;
+  height: 22%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav ul {
+  margin-right: 4rem;
+  display: flex;
+  justify-content: space-around;
+  width: 43.6%;
+  font-size: 25px;
+}
+nav ul a {
+  color: white;
+  text-decoration: none;
+}
+nav li {
+  display: flex;
+  align-items: center;
+}
+nav li:hover {
+  color: red;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+}
+nav .logo {
+  margin-left: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+nav .logo img {
+  width: 6.5rem;
+  height: 6.5rem;
+}
+nav .logo h1 {
+  font-weight: 700;
+}
+
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  background: #002e5b;
+  height: 20rem;
+  padding: 2rem 5rem;
+}
+footer h2 {
+  color: rgba(255, 0, 0, 0.911);
+  margin-bottom: 0.7rem;
+}
+
+.sitemap ul {
+  font-size: 20px;
+}
+.sitemap li {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.6rem;
+}
+.sitemap li:hover {
+  color: rgba(255, 0, 0, 0.911);
+}
+.sitemap a {
+  color: white;
+  text-decoration: none;
+}
+
+.social i {
+  margin-bottom: 0.6rem;
+  font-size: 22px;
+}
+.social a {
+  color: White;
+  display: flex;
+  text-decoration: none;
+}
+
+.link_item {
+  display: flex;
+  margin-bottom: 0.7rem;
+}
+.link_item:hover {
+  color: rgba(255, 0, 0, 0.911);
+}
+.link_item p {
+  margin-left: 0.1rem;
+  font-size: 18px;
+}
+
+.page_body {
+  height: 42rem;
+  background-image: url("../../img/Cap3.PNG");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.login_form {
+  height: 30rem;
+  width: 23rem;
+  background: rgba(0, 46, 91, 0.87);
+  border-radius: 7px;
+  margin-bottom: 9rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  transform: translate(135%, 18%);
+}
+.login_form img {
+  margin-top: 18px;
+  height: 90px;
+  width: 90px;
+}
+.login_form .login_label {
+  margin-top: -38px;
+  font-size: 24px;
+  color: yellow;
+  font-weight: 700;
+}
+.login_form .items {
+  margin-top: -25px;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+}
+.login_form .items input::-moz-placeholder {
+  color: black;
+}
+.login_form .items input:-ms-input-placeholder {
+  color: black;
+}
+.login_form .items input::placeholder {
+  color: black;
+}
+.login_form .items input {
+  height: 28px;
+  width: 18rem;
+  border: 0;
+  background: white;
+  color: black;
+  padding-left: 0.5rem;
+  border-radius: 5px;
+  outline: none;
+}
+.login_form .items label {
+  color: white;
+  font-size: 18px;
+}
+.login_form .control_container {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 15px;
+  margin-top: -30px;
+}
+.login_form .checkbox {
+  accent-color: yellow;
+}
+.login_form .checkbox label {
+  color: white;
+}
+.login_form .forgot a {
+  color: white;
+  text-decoration: none;
+}
+.login_form .btn {
+  background: white;
+  padding: 6px 18px;
+  border-radius: 9px;
+  color: #002e5b;
+  margin-top: -6px;
+  margin-bottom: 18px;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.login_form .btn:hover {
+  color: white;
+  background: #002e5b;
+}
+.login_form .signup_link p {
+  color: white;
+}
+.login_form .signup_link a {
+  color: yellow;
+}
+.login_form .signup_link a:hover {
+  color: rgba(255, 0, 0, 0.911);
+}
+
+.register_box {
+  width: auto;
+  height: 30rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translate(0%, 14%);
+  border-radius: 17px;
+}
+
+.register_sidebar {
+  width: 17%;
+  height: 30rem;
+  background: rgba(255, 255, 0, 0.77);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.register_sidebar .steps_section {
+  height: 7.5rem;
+  margin-top: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.register_sidebar :last-child {
+  margin-top: auto;
+  margin-bottom: 1rem;
+}
+.register_sidebar .reg_signup_link {
+  color: black;
+  font-weight: 300;
+}
+.register_sidebar .reg_signup_link a {
+  color: blue;
+}
+.register_sidebar .reg_signup_link a:hover {
+  color: rgba(255, 0, 0, 0.911);
+}
+
+.active_step {
+  color: rgba(255, 0, 0, 0.911);
+  border: 2px solid green;
+  padding: 0.5rem;
+  border-radius: 7px;
+  margin-bottom: 5px;
+}
+
+.register1_form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 30rem;
+  width: 30rem;
+  background: rgba(0, 46, 91, 0.87);
+  color: white;
+  padding: 1rem 5rem;
+}
+.register1_form input {
+  width: 11.6rem;
+  height: 28px;
+  border: 0;
+  background: rgba(255, 255, 255, 0.95);
+  color: black;
+  padding-left: 0.5rem;
+  border-radius: 5px;
+}
+.register1_form .insider {
+  display: flex;
+  flex-direction: column;
+}
+.register1_form .heading_label {
+  margin-top: 10px;
+  margin-bottom: 15px;
+  text-align: center;
+  color: rgba(255, 0, 0, 0.911);
+  color: white;
+  font-weight: 700;
+}
+.register1_form .container_items {
+  display: flex;
+  gap: 1.5rem;
+  margin-bottom: 0.7rem;
+  font-size: 18px;
+}
+.register1_form .gender {
+  padding: 0.2rem;
+  background: rgba(52, 153, 52, 0.767);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 5px;
+}
+.register1_form .gender p {
+  margin-bottom: 5px;
+}
+.register1_form .gender .radio_btn {
+  width: 11rem;
+  display: flex;
+  justify-content: space-between;
+}
+.register1_form .gender .radio_btn p {
+  margin-left: -20px;
+}
+.register1_form .gender .radio_btn input {
+  width: 1.2rem;
+  height: 1.2rem;
+  accent-color: yellow;
+}
+.register1_form .step1_button {
+  text-align: center;
+  margin: 10px 0 10px 19.4rem;
+  width: 85px;
+  height: 2rem;
+  background: white;
+  border-radius: 5px;
+  border: none;
+  color: #002e5b;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.register1_form .step1_button:hover {
+  color: white;
+  background: #002e5b;
+  border: 1px solid white;
+}
+.register1_form a {
+  text-decoration: none;
+}
+
+.direct_container {
+  width: 27rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user_container {
+  height: 13rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 18px;
+}
+
+.user_text {
+  font-size: 17px;
+  padding: 0.5rem;
+  color: #002e5b;
+  background: rgba(255, 255, 255, 0.774);
+  text-align: center;
+  border-radius: 7px;
+}
+
+.step2_button {
+  text-align: center;
+  width: 85px;
+  height: 2rem;
+  background: white;
+  border-radius: 5px;
+  border: none;
+  color: #002e5b;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.step2_button:hover {
+  color: white;
+  background: #002e5b;
+  border: 1px solid white;
+}
+
+.about_body {
+  background: white;
+  width: auto;
+  height: auto;
+  color: black;
+  display: flex;
+  flex-direction: column;
+}
+
+.about_heading {
+  color: #002e5b;
+  background: rgba(255, 255, 0, 0.938);
+  height: 21rem;
+  width: 100%;
+  font-size: 80px;
+  font-weight: 900;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section_text {
+  background: rgba(245, 222, 179, 0.459);
+  padding: 2.5rem 20rem;
+  font-size: 22px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+}
+.section_text section {
+  margin-bottom: 2rem;
+}
+.section_text section ul {
+  margin-top: 1rem;
+  margin-left: 1.5rem;
+}
+.section_text section h2 {
+  color: red;
+}
+
+.emergency_body {
+  background: rgba(245, 222, 179, 0.459);
+  width: auto;
+  height: 35em;
+  height: auto;
+  color: black;
+  display: flex;
+  flex-direction: column;
+}
+
+.emergency_heading {
+  color: #002e5b;
+  background: rgba(255, 255, 0, 0.938);
+  height: 60%;
+  height: 21rem;
+  width: 100%;
+  font-size: 80px;
+  font-weight: 900;
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.emergency_text {
+  padding: 2rem 8rem;
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+img {
+  float: right;
+}
+
+.emer_container {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5rem;
+  gap: 2.5rem;
+}
+
+.emer1_items {
+  margin-top: 1.5rem;
+  background-image: url(./../../img/Cap4.PNG);
+  height: 32em;
+  width: 70rem;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid blue;
+}
+
+.emer2_items {
+  background-image: url(./../../img/fire_background.png);
+  height: 32em;
+  width: 70rem;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid brown;
+}
+
+.emer3_items {
+  background-image: url(./../../img/CropCrop/Ambulances8.PNG);
+  height: 32em;
+  width: 70rem;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid green;
+}
+
+.inside_box {
+  height: 24rem;
+  width: 39rem;
+  background: rgba(0, 46, 91, 0.87);
+  border-radius: 7px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.inside_box img {
+  height: 100px;
+  width: 100px;
+}
+.inside_box h1 {
+  color: yellow;
+  background: red;
+  width: 10rem;
+  height: 6rem;
+  font-size: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.inside_box .service_name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inside_box .service_name h2 {
+  color: white;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.admin_body {
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sidebar {
+  position: -webkit-sticky;
+  position: sticky;
+  background: rgb(71, 80, 88);
+  background: rgba(0, 46, 91, 0.9);
+  width: 30%;
+  width: 31%;
+  height: 40.91rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sidebar .admin_profile_container {
+  margin: 2rem 0 0 0;
+  height: 4rem;
+  width: 100%;
+  display: flex;
+}
+.sidebar .admin_profile_container .admin_pic {
+  width: 20%;
+  margin-left: 0.7rem;
+}
+.sidebar .admin_profile_container .admin_pic .admin_img1 {
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 50%;
+}
+.sidebar .admin_profile_container .admin_profiletext_container {
+  display: flex;
+  flex-direction: column;
+  color: red;
+  font-size: 16px;
+}
+.sidebar .admin_profile_container i {
+  margin-left: 0.5rem;
+  color: red;
+}
+.sidebar .admin_profile_container i:hover {
+  color: white;
+}
+.sidebar .admin_dashlabel_text {
+  color: rgba(255, 255, 255, 0.8784313725);
+  font-size: 20px;
+  margin-top: 1rem;
+  text-align: center;
+  font-weight: 700;
+}
+.sidebar .dropdown_menu {
+  display: none;
+}
+.sidebar i:hover .dropdown_menu {
+  display: block;
+  position: absolute;
+  left: 4.5rem;
+  top: 23%;
+  background: black;
+}
+.sidebar i:hover .dropdown_menu i:hover ul {
+  display: block;
+  margin: 10px;
+  width: 12rem;
+}
+.sidebar i:hover .dropdown_menu i:hover ul li {
+  width: 4rem;
+  list-style: none;
+  transition: all 0.3s;
+}
+.sidebar i:hover .dropdown_menu i:hover ul li a {
+  color: white;
+  text-decoration: none;
+}
+.sidebar i:hover .dropdown_menu i:hover ul li :hover {
+  color: red;
+  display: block;
+  position: absolute;
+  left: 4.5rem;
+  top: 23%;
+  background: black;
+  background: green;
+}
+.sidebar .navi-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.sidebar .navi_item {
+  background: white;
+  padding: 0.7rem;
+  margin: 0.7rem;
+  width: 18.5rem;
+  border-radius: 7px;
+}
+.sidebar .navi_a {
+  color: rgba(255, 0, 0, 0.808);
+  color: rgba(0, 46, 91, 0.966);
+  text-decoration: none;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+}
+.sidebar .admin_hr {
+  margin: 1rem;
+}
+.sidebar .admin_icon {
+  font-size: 28px;
+  margin-left: 8px;
+  margin-right: 8px;
+  margin-top: 0.28rem;
+}
+.sidebar .admin_signout {
+  color: rgba(255, 0, 0, 0.842);
+  margin: 2.3rem 0 0.2rem 11rem;
+  background: rgba(0, 46, 91, 0.7);
+  padding: 0.5rem;
+}
+.sidebar .logout_a {
+  text-decoration: none;
+}
+
+.main {
+  background: white;
+  height: 40.91rem;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+}
+.main .dashboard_header {
+  background: white;
+  border-bottom: 1px solid rgb(0, 0, 117);
+  padding: 1rem 1rem 0 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+.main .label_dash {
+  color: rgb(0, 0, 117);
+  display: flex;
+}
+.main .admin_icon_dash {
+  font-size: 27px;
+  margin-top: -6px;
+  margin-right: 5px;
+}
+.main .home_details {
+  color: rgba(0, 0, 0, 0.603);
+}
+.main .home_color {
+  color: rgba(0, 46, 91, 0.7);
+}
+.main .grid-container {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  grid-template-columns: auto auto;
+  -moz-column-gap: 50px;
+       column-gap: 50px;
+  gap: 35px 35px;
+  padding-top: 2.5rem;
+}
+.main .grid-item {
+  height: 15rem;
+  width: 27rem;
+  background: rgba(0, 46, 91, 0.7);
+}
+.main .show_info_container {
+  height: 12rem;
+  display: flex;
+}
+.main .show_content {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 1.5rem;
+}
+.main .show_inside_number {
+  font-size: 80px;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 0.7rem;
+}
+.main .show_inside_text {
+  color: white;
+  font-size: 25px;
+}
+.main .show_icon {
+  color: white;
+  font-size: 8rem;
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.7;
+}
+.main .more_a {
+  background: rgba(0, 46, 91, 0.7);
+  color: white;
+  height: 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 500;
+  gap: 5px;
+  text-decoration: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.admin_body {
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sidebar {
+  position: -webkit-sticky;
+  position: sticky;
+  background: rgb(71, 80, 88);
+  background: rgba(0, 46, 91, 0.9);
+  width: 30%;
+  width: 31%;
+  height: 40.91rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sidebar .admin_profile_container {
+  margin: 2rem 0 0 0;
+  height: 4rem;
+  width: 100%;
+  display: flex;
+}
+.sidebar .admin_profile_container .admin_pic {
+  width: 20%;
+  margin-left: 0.7rem;
+}
+.sidebar .admin_profile_container .admin_pic .admin_img1 {
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 50%;
+}
+.sidebar .admin_profile_container .admin_profiletext_container {
+  display: flex;
+  flex-direction: column;
+  color: red;
+  font-size: 16px;
+}
+.sidebar .admin_profile_container i {
+  margin-left: 0.5rem;
+  color: red;
+}
+.sidebar .admin_profile_container i:hover {
+  color: white;
+}
+.sidebar .admin_dashlabel_text {
+  color: rgba(255, 255, 255, 0.8784313725);
+  font-size: 20px;
+  margin-top: 1rem;
+  text-align: center;
+  font-weight: 700;
+}
+.sidebar .dropdown_menu {
+  display: none;
+}
+.sidebar i:hover .dropdown_menu {
+  display: block;
+  position: absolute;
+  left: 4.5rem;
+  top: 23%;
+  background: black;
+}
+.sidebar i:hover .dropdown_menu i:hover ul {
+  display: block;
+  margin: 10px;
+  width: 12rem;
+}
+.sidebar i:hover .dropdown_menu i:hover ul li {
+  width: 4rem;
+  list-style: none;
+  transition: all 0.3s;
+}
+.sidebar i:hover .dropdown_menu i:hover ul li a {
+  color: white;
+  text-decoration: none;
+}
+.sidebar i:hover .dropdown_menu i:hover ul li :hover {
+  color: red;
+  display: block;
+  position: absolute;
+  left: 4.5rem;
+  top: 23%;
+  background: black;
+  background: green;
+}
+.sidebar .navi-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.sidebar .navi_item {
+  background: white;
+  padding: 0.7rem;
+  margin: 0.7rem;
+  width: 18.5rem;
+  border-radius: 7px;
+}
+.sidebar .navi_a {
+  color: rgba(255, 0, 0, 0.808);
+  color: rgba(0, 46, 91, 0.966);
+  text-decoration: none;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+}
+.sidebar .admin_hr {
+  margin: 1rem;
+}
+.sidebar .admin_icon {
+  font-size: 28px;
+  margin-left: 8px;
+  margin-right: 8px;
+  margin-top: 0.28rem;
+}
+.sidebar .admin_signout {
+  color: rgba(255, 0, 0, 0.842);
+  margin: 2.3rem 0 0.2rem 11rem;
+  background: rgba(0, 46, 91, 0.7);
+  padding: 0.5rem;
+}
+.sidebar .logout_a {
+  text-decoration: none;
+}
+
+.main {
+  background: white;
+  height: 40.91rem;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+}
+.main .dashboard_header {
+  background: white;
+  border-bottom: 1px solid rgb(0, 0, 117);
+  padding: 1rem 1rem 0 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+.main .label_dash {
+  color: rgb(0, 0, 117);
+  display: flex;
+}
+.main .admin_icon_dash {
+  font-size: 27px;
+  margin-top: -6px;
+  margin-right: 5px;
+}
+.main .home_details {
+  color: rgba(0, 0, 0, 0.603);
+}
+.main .home_color {
+  color: rgba(0, 46, 91, 0.7);
+}
+.main .grid-container {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  grid-template-columns: auto auto;
+  -moz-column-gap: 50px;
+       column-gap: 50px;
+  gap: 35px 35px;
+  padding-top: 2.5rem;
+}
+.main .grid-item {
+  height: 15rem;
+  width: 27rem;
+  background: rgba(0, 46, 91, 0.7);
+}
+.main .show_info_container {
+  height: 12rem;
+  display: flex;
+}
+.main .show_content {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 1.5rem;
+}
+.main .show_inside_number {
+  font-size: 80px;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 0.7rem;
+}
+.main .show_inside_text {
+  color: white;
+  font-size: 25px;
+}
+.main .show_icon {
+  color: white;
+  font-size: 8rem;
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.7;
+}
+.main .more_a {
+  background: rgba(0, 46, 91, 0.7);
+  color: white;
+  height: 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 500;
+  gap: 5px;
+  text-decoration: none;
+}/*# sourceMappingURL=style.css.map */
